@@ -1,0 +1,824 @@
+2017-06-06 16:51:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 16:51:22 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59849'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496757082.696
+    'REQUEST_TIME' => 1496757082
+]
+2017-06-06 18:23:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 18:23:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60920'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762630.4482
+    'REQUEST_TIME' => 1496762630
+]
+2017-06-06 18:26:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 18:26:22 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60926'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762782.9391
+    'REQUEST_TIME' => 1496762782
+]
+2017-06-06 18:26:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 18:26:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60926'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762783.8695
+    'REQUEST_TIME' => 1496762783
+]
+2017-06-06 18:28:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 18:28:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762887.8767
+    'REQUEST_TIME' => 1496762887
+]
+2017-06-06 18:28:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 18:28:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762888.6925
+    'REQUEST_TIME' => 1496762888
+]
+2017-06-06 18:28:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-06 18:28:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762934.9426
+    'REQUEST_TIME' => 1496762934
+]
+2017-06-06 18:28:58 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Users/vilderr/www/linex/application/views/default/index.php' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Users/vilderr/...', Array, Object(app\controllers\DefaultController))
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\DefaultController))
+#2 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\base\Controller->render('index')
+#3 [internal function]: app\controllers\DefaultController->actionIndex()
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#7 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('default', Array)
+#8 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-06-06 18:28:58 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/default'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762938.476
+    'REQUEST_TIME' => 1496762938
+]
+2017-06-06 18:29:31 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Users/vilderr/www/linex/application/views/default/index.php' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Users/vilderr/...', Array, Object(app\controllers\DefaultController))
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\DefaultController))
+#2 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\base\Controller->render('index')
+#3 [internal function]: app\controllers\DefaultController->actionIndex()
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#7 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('default/index', Array)
+#8 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-06-06 18:29:31 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496762971.073
+    'REQUEST_TIME' => 1496762971
+]
+2017-06-06 18:30:25 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Users/vilderr/www/linex/application/views/default/index.php' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Users/vilderr/...', Array, Object(app\controllers\DefaultController))
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\DefaultController))
+#2 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\base\Controller->render('index')
+#3 [internal function]: app\controllers\DefaultController->actionIndex()
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#7 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('default/index', Array)
+#8 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-06-06 18:30:25 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496763025.5994
+    'REQUEST_TIME' => 1496763025
+]
+2017-06-06 18:30:49 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in /Users/vilderr/www/linex/application/views/layouts/main.php:12
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile()
+#2 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent()
+#3 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\base\Controller->render()
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): app\controllers\DefaultController->actionIndex()
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php:57}()
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction()
+#8 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction()
+#9 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest()
+#10 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2017-06-06 18:30:49 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496763049.2161
+    'REQUEST_TIME' => 1496763049
+]
+2017-06-06 18:31:09 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: /Users/vilderr/www/linex/application/../web/vendor/bower/bootstrap/dist' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/AssetManager.php:454
+Stack trace:
+#0 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/Users/vilderr/...', Array)
+#1 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\bootstrap\\B...', Array, true)
+#3 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\bootstrap\\B...')
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('yii\\bootstrap\\B...')
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2-bootstrap/Nav.php(138): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Widget.php(139): yii\bootstrap\Nav->run()
+#7 /Users/vilderr/www/linex/application/views/layouts/main.php(53): yii\base\Widget::widget(Array)
+#8 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php(330): require('/Users/vilderr/...')
+#9 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/Users/vilderr/...', Array)
+#10 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/Users/vilderr/...', Array, Object(app\controllers\DefaultController))
+#11 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('')
+#12 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\DefaultController->actionIndex()
+#14 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#17 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('default/index', Array)
+#18 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#20 {main}
+2017-06-06 18:31:09 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_csrf' => '4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‘)MÙtûá,ëKÔ¥Ómò &,?^vNdÖ¢-	\";}'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _csrf=4df9b6ffa4b35b7a70cc7e73978fb2d6c329adeabde2df73feff251f6da2db74a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%91%90%29M%D9t%FB%E1%2C%0C%EBK%D4%A5%D3m%F2%A0%1B%26%2C%3F%5E%17vN%0Cd%D6%A2-%09%22%3B%7D; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496763069.0013
+    'REQUEST_TIME' => 1496763069
+]
+2017-06-06 18:34:46 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @main' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/BaseYii.php:154
+Stack trace:
+#0 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\BaseYii::getAlias('@main')
+#1 [internal function]: app\controllers\DefaultController->actionIndex()
+#2 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('default/index', Array)
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-06 18:34:46 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_csrf' => 'aa7071ab48de7d20fa186cc25a8ec4e90fb2fddcf59e36a8989621cd0afd9242a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¶ÖSYc¸ÁˆdwüBŒ;$=EJ¡D°C –yÚÚu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _csrf=aa7071ab48de7d20fa186cc25a8ec4e90fb2fddcf59e36a8989621cd0afd9242a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B6%D6SYc%B8%0E%C1%88dw%FCB%8C%3B%8D%24%3DEJ%A1%01D%B0C+%96y%DA%01%DAu%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496763286.0078
+    'REQUEST_TIME' => 1496763286
+]
+2017-06-06 18:34:48 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @main' in /Users/vilderr/www/linex/vendor/yiisoft/yii2/BaseYii.php:154
+Stack trace:
+#0 /Users/vilderr/www/linex/application/controllers/DefaultController.php(11): yii\BaseYii::getAlias('@main')
+#1 [internal function]: app\controllers\DefaultController->actionIndex()
+#2 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#5 /Users/vilderr/www/linex/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('default/index', Array)
+#6 /Users/vilderr/www/linex/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/vilderr/www/linex/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-06 18:34:48 [127.0.0.1][-][pvt12ip06glt7thl24tof4i7f7][info][application] $_COOKIE = [
+    'PHPSESSID' => 'pvt12ip06glt7thl24tof4i7f7'
+    '_identity' => '78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+    '_csrf' => 'aa7071ab48de7d20fa186cc25a8ec4e90fb2fddcf59e36a8989621cd0afd9242a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¶ÖSYc¸ÁˆdwüBŒ;$=EJ¡D°C –yÚÚu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'vilderr'
+    'HOME' => '/Users/vilderr'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/Users/vilderr/www/linex/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/Users/vilderr/www/linex/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60935'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'linex.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'linex.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=pvt12ip06glt7thl24tof4i7f7; _identity=78bbfc521a16b7609ad474deaf48fd264c9e2261c33d9063312fbe3d141f649ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; _csrf=aa7071ab48de7d20fa186cc25a8ec4e90fb2fddcf59e36a8989621cd0afd9242a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B6%D6SYc%B8%0E%C1%88dw%FCB%8C%3B%8D%24%3DEJ%A1%01D%B0C+%96y%DA%01%DAu%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1496763288.0498
+    'REQUEST_TIME' => 1496763288
+]
